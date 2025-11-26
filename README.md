@@ -29,21 +29,3 @@ These control the layout of the whole section:
 ### 2. Item Properties (Children)
 These control the individual elements inside the container:
 - **flex-grow**: I used this to allow specific items to expand and fill the available empty space.
-
-## 💻 Code Snippet
-
-Here is how I implemented the flexible container structure:
-
-css
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    gap: 20px;
-}
-
-.item-special {
-    /* This item takes up remaining space */
-    flex-grow: 1; 
-}
